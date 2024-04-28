@@ -1,0 +1,16 @@
+{
+	"name": "dlx-gravatar-block",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"start": "wp-scripts start --env mode=development",
+		"build": "wp-scripts build --env mode=production",
+		"zip": "wp-scripts plugin-zip"
+	},
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"@wordpress/scripts": "^27.6.0"
+	}
+}
