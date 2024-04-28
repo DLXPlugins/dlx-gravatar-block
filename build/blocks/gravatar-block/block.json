@@ -1,0 +1,36 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "title": "Gravatar Block",
+  "apiVersion": 3,
+  "name": "dlxplugins/gravatar-block",
+  "category": "media",
+  "icon": "admin-users",
+  "description": "An Gravatar block.",
+  "keywords": [
+    "avatar",
+    "gravatar"
+  ],
+  "version": "1.0.0",
+  "textdomain": "dlx-gravatar-block",
+  "attributes": {
+    "gravatarHash": {
+      "type": "string",
+      "default": ""
+    },
+    "gravatarSize": {
+      "type": "string",
+      "default": ""
+    },
+    "align": {
+      "type": "string",
+      "default": "none"
+    }
+  },
+  "supports": {
+    "anchor": true,
+    "align": true,
+    "className": true
+  },
+  "editorScript": "dlx-gravatar-block-editor",
+  "editorStyle": "dlx-gravatar-block-editor"
+}
